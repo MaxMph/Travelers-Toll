@@ -13,7 +13,7 @@ size = Vector2(1, 1)
 script = ExtResource("1_onrkg")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(18, 18)
+zoom = Vector2(16, 16)
 
 [node name="SinglePx" type="Sprite2D" parent="."]
 visible = false
@@ -29,13 +29,16 @@ modulate = Color(0.196078, 0.243137, 0.258824, 1)
 texture = SubResource("CanvasTexture_onrkg")
 
 [node name="int_cast" type="RayCast2D" parent="."]
-target_position = Vector2(8, 0)
+target_position = Vector2(6, 0)
+hit_from_inside = true
 collide_with_areas = true
 collide_with_bodies = false
 script = ExtResource("3_qhqgy")
 
-[node name="Marker2D" type="Marker2D" parent="."]
-
-[node name="Sprite2D" type="Sprite2D" parent="Marker2D"]
+[node name="Sprite2D" type="Sprite2D" parent="int_cast"]
+self_modulate = Color(1, 1, 1, 0.560784)
 z_index = 4
+position = Vector2(2, 0)
 texture = ExtResource("1_4flbx")
+
+[node name="Marker2D" type="Marker2D" parent="."]

@@ -170,3 +170,4 @@ shape = SubResource("CapsuleShape2D_4wyf3")
 
 [node name="dialouge" parent="interactions/stable" instance=ExtResource("5_i7141")]
 visible = false
+dialouge_lines = Array[String](["After inhailing a breath wretched with the stench of menuer, your guess is comfirmed. the building is a stable for the guards hourses.", "Its roofed with a fine fabric adorned with red stripes, mimicing the flag of the empire.", "No horses are within the building."])

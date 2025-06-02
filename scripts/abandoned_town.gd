@@ -4,6 +4,7 @@ extends Area2D
 func interacted():
 	#print("there is a red coating on the grass, clearly from the unfortunite soul who lie in the middle of it. the blood has dried but the stench of rot still remains.")
 	print("abandoned town interaction")
+	Global.in_menu = true
 	$dialouge.line_index = 0
 	$dialouge.display()
 	$dialouge.visible = true
