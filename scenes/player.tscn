@@ -13,7 +13,7 @@ size = Vector2(1, 1)
 script = ExtResource("1_onrkg")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(16, 16)
+zoom = Vector2(10, 10)
 
 [node name="SinglePx" type="Sprite2D" parent="."]
 visible = false
