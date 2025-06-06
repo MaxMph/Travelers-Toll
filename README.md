@@ -14,5 +14,4 @@ there are only a few interactions built in right now.
 
 there are some spelling/grammar errors since there isnt any spellcheck, I will probably fix them at some point but not right now
 
-if you want to see the game without having to go play it check out the video here:
-https://youtu.be/1wLDeRP1aJo
+if you want to play the game, you can check it out here: https://maxwell-mph.itch.io/travelers-toll
